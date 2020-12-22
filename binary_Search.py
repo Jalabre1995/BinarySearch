@@ -6,7 +6,7 @@ def binary_search(sequence, item):
     begin_index = 0
     end_index = len(sequence) - 1
 
-    #Create a whilelo loop saying while begin index is greater then the end_index the midpoint is going to equal the begin_index
+    #Create a whilelo loop saying while begin index is less than greater then the end_index the midpoint is going to equal the begin_index
 
     while begin_index <= end_index:
         midpoint = begin_index + (end_index - begin_index) // 2
